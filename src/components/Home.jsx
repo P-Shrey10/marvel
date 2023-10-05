@@ -2,7 +2,6 @@ import Card from "./Card";
 import Grid from "./Grid";
 import Container from "./Container";
 import SearchBar from "./SearchBar";
-
 import React from "react";
 import { useState } from "react";
 import { fetchHeros } from "../libs/utils";
@@ -40,7 +39,7 @@ export default function Home() {
   return (
     <Container>
       <div className="title">
-        <h1>Developer Marvel API</h1>
+        <h1>Marvel Search Enginee</h1>
       </div>
       <SearchBar
         handleClick={handleClick}
