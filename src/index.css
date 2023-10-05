@@ -117,6 +117,13 @@ header {
   color: purple;
 }
 
+.about {
+  text-align: center;
+  color: blueviolet;
+}
+
+
+
 .card img {
   min-width: 100%;
 }
