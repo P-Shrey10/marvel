@@ -46,7 +46,7 @@ export default function Home() {
         setHeroes={setHeroes}
         setError={setError}
       />
-      <h2>Results</h2>
+      <h2 className="results">Results</h2>
       <Grid>{cards ? cards : null}</Grid>
     </Container>
   );

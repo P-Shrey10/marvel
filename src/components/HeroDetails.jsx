@@ -35,16 +35,16 @@ export default function HeroDetails() {
       <div className="hero__details-container">
         <img src={thumbnailUrl} alt="hero image full size" />
         <div className="hero__details">
-          <h4>Name</h4>
+          <h4>Name:</h4>
           <p>{name}</p>
           {description ? (
             <>
-              <h4>Description</h4>
+              <h4>Description:</h4>
               <p>{description}</p>
             </>
           ) : null}
           <div className="hero__series">
-            <h4>Series</h4>
+            <h4>Series:</h4>
             <ul>
               {series
                 ? series.map((title) => (
